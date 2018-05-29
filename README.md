@@ -14,6 +14,10 @@ A small proof of concept assistive technology which aids in the curation of shit
  * literotica
  * ...
 
+## Example
+
+![Wordcloud of Mumsnet test data](mumsnet-wordcloud.jpg)
+
 ## TODO
 
  * Screencast demo

@@ -66,7 +66,14 @@ def main():
             else:
                 break
 
-        print("Command is", command)
+        if command[0] == '!':
+            command = command[1:].split(' ')
+            if command[0].isdigit():
+                N = int(command[0])
+                res = model.make_short_sentence(N)
+                print(res)
+        else:
+            print("Result =", command)
 
 
 if __name__ == "__main__":
